@@ -2,7 +2,7 @@ import openai
 import pyttsx3
 import speech_recognition as sr
 
-openai.api_key = "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"
+openai.api_key = "insert api key"
 engine = pyttsx3.init()
 
 def transcribe(filename):
